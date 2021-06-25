@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import ExampleComponent from './ExampleComponent'
 import TestComponent from './TestComponent'
+import Comment from './CommentComponent'
+import Article from './ArticleComponent'
+
 
 // Add your code own within the return statement
 
@@ -20,7 +23,8 @@ class App extends Component {
         </p>
         <ExampleComponent />
         <TestComponent />
-
+        <Comment />
+        <Article />
       </div>
     );
   }
