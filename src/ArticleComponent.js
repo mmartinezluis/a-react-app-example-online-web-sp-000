@@ -4,7 +4,7 @@ class Article extends React.Component {
   render (){
     return (
       <div>
-          Daer Reader: Bjarne Stroustrop has the perfect lecture oration.
+          Dear Reader: Bjarne Stroustrop has the perfect lecture oration.
       </div>
     )
   }
